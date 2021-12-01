@@ -8,11 +8,14 @@
 
 <script>
 import MainTabBar from "./components/MainTabBar.vue";
+import Alert from "./components/Alert.vue";
 import axios from "axios";
+
 export default {
   name: "App",
   components: {
     MainTabBar,
+    Alert,
   },
   data() {
     return {};

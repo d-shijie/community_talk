@@ -21,6 +21,7 @@ export default {
   position: fixed;
   bottom: 0;
   left: 0;
+  z-index: 100000;
   right: 0;
   background-color: #f2f2f2;
   border-top: 1px solid rgba(0, 0, 0, 0.3);

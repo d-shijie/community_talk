@@ -3,28 +3,28 @@
     <tab-bar class="tab-bar">
       <tab-bar-item class="tab-bar-item" path="/message" active-color="red">
         <div slot="item-icon">
-          <img src="../assets/img/tabbar/1.svg" alt="" />
+          <img src="../assets/img/tabbar/message.png" alt="" />
         </div>
         <div slot="item-active">
-          <img src="../assets/img/tabbar/2.svg" alt="" />
+          <img src="../assets/img/tabbar/message1.png" alt="" />
         </div>
         <div slot="item-text">消息</div>
       </tab-bar-item>
       <tab-bar-item class="tab-bar-item" path="/home" active-color="red">
         <div slot="item-icon">
-          <img src="../assets/img/tabbar/home1.svg" alt="" />
+          <img src="../assets/img/tabbar/home.png" alt="" />
         </div>
         <div slot="item-active">
-          <img src="../assets/img/tabbar/home2.svg" alt="" />
+          <img src="../assets/img/tabbar/home1.png" alt="" />
         </div>
         <div slot="item-text">首页</div>
       </tab-bar-item>
       <tab-bar-item class="tab-bar-item" path="/profile" active-color="red">
         <div slot="item-icon">
-          <img src="../assets/img/tabbar/my1.svg" alt="" />
+          <img src="../assets/img/tabbar/my.png" alt="" />
         </div>
         <div slot="item-active">
-          <img src="../assets/img/tabbar/my2.svg" alt="" />
+          <img src="../assets/img/tabbar/my1.png" alt="" />
         </div>
         <div slot="item-text">我的</div>
       </tab-bar-item>

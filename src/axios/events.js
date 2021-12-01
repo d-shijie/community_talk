@@ -12,3 +12,10 @@ export function getUserEvents(id) {
         }
     })
 }
+export function deleteEvent(query){
+    return request({
+        url:'/eventDelete',
+        method:'post',
+        data:query
+    })
+}

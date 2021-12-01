@@ -8,6 +8,7 @@ const Profile = () => import('../components/Profile.vue')
 const Publish = () => import('../components/Publish.vue')
 const Event = () => import('../components/Event.vue')
 const UserDetail = () => import('../components/UserDetail.vue')
+const Chat=()=>import('../components/Chat.vue')
 const routes = [
     {
         path: "",
@@ -34,12 +35,16 @@ const routes = [
         component: Publish
     },
     {
-        path: '/event',
+        path: '/event/:id',
         component: Event
     },
     {
         path: '/userDetail/:id',
         component: UserDetail
+    },
+    {
+        path:'/chat/:id',
+        component:Chat
     }
 ]
 const router = new VueRouter({

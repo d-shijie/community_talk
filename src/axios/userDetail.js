@@ -4,3 +4,10 @@ export function getUserDetail(userId) {
         url: '/userDetail/' + userId
     })
 }
+export function putUserDetail(body){
+    return request({
+        url:'/userDetail',
+        method:'post',
+        data:body
+    })
+}

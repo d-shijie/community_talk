@@ -101,7 +101,7 @@ export default {
             formdata.append("userId", window.sessionStorage.getItem("userId"));
             publish(formdata)
               .then((res) => {
-                console.log(res);
+                this.$router.push("/home");
               })
               .catch((err) => {
                 console.log(err);
