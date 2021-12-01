@@ -1,5 +1,5 @@
 # myvue
-
+文件目录比较随意 需要搭配community_api运行
 ## Project setup
 ```
 npm install
